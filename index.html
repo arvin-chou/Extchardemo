@@ -1,0 +1,44 @@
+<html>
+<head><title>BroadWeb</title>
+<!-- EXT JS CSS -->
+<link rel="stylesheet" type="text/css" href="css/ext-all-gray.css"/>
+<link rel="stylesheet" type="text/css" href="css/login.css"/>
+
+<!-- EXT JS DEFINE -->
+<!--<script type="text/javascript" src="js/ext-all.js"></script>-->
+<!--<script type="text/javascript" src="js/ext-all-debug.js"></script>-->
+<script type="text/javascript" src="js/1.js"></script>
+<script type="text/javascript" src="js/1.old.lzma.js"></script>
+<!-- joint draw lib -->
+<script src="js/joint/joint.all.min.js" type="text/javascript"></script>
+<script src="js/lzma.js" type="text/javascript"></script>
+
+<script type="text/javascript" >
+    /*
+    my_lzma = new LZMA("js/lzma_worker.js");
+    my_lzma.decompress(lzma, function (result) {
+            eval(result);
+            console.log(result, "lzma len=", lzma.length);
+            }, function (percent) {
+            });
+            */
+    //fileref.setAttribute("src", "index.js?r="+ Math.random());
+    var fileref=document.createElement('script')
+    fileref.setAttribute("type","text/javascript")
+    fileref.setAttribute("src", "index.js");
+    document.getElementsByTagName("head")[0].appendChild(fileref);
+</script>
+
+</head>
+
+<body id="login_body"> 
+    <form name="f" id="form" >
+        <div class="l-wrap">
+            <div class="login_bg" id="login_bg">
+
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

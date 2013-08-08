@@ -1,0 +1,47 @@
+/* CSS Document */
+.custom-first-last .x-grid-row-selected .x-grid-cell-first { 
+    background-image: url(../images/bubble/bullet_go.png); 
+    background-repeat: no-repeat; 
+    padding-left: 12px; 
+} 
+.custom-first-last .x-panel .x-grid-body{
+	background:transparent;
+}
+.grid_qos_app_detail .x-grid-table > tbody:nth-of-type(1){
+    display: block; 
+    overflow-y: scroll;
+    /*
+    height:  200px;
+    */
+}
+.x-bubble-corner {
+    border-radius: 5px 10px 5px 10px / 10px 5px 10px 5px;
+    border-radius: 5px;
+    border-radius: 5px 10px / 10px;
+}
+.text-transparent.x-form-text {
+	background:transparent;
+    border    : 0;
+}
+.text-border {
+    border-bottom:1px solid #e8edff;
+}
+body { background-image:url(../images/login/advance_bg.gif);background-repeat:repeat-x;background-color:rgb(235,237,239);font-family:tahoma,arial,helvetica,sans-serif; font-size:12px; color:#000;}
+.l-wrap {margin-top:0px;position:relative; width:100%;}
+.l-wrap .section label {color:#000;}
+.l-wrap .section .suffixtext {color:#000;font-size:12px;padding-left:4px;}
+.login_bg{position:relative; background:transparent; width:1000px; height:570px; margin:10 auto;}
+.x-form-readonly input{
+	border : 0px;
+	background-image: url('');
+}
+.x-livesearch-match {
+    font-weight: bold;
+    background-color: yellow;
+}
+.x-toolbar .x-form-cb-wrap {
+    line-height: 22px;
+}
+.x-toolbar .x-form-checkbox {
+    vertical-align: 0;
+}
